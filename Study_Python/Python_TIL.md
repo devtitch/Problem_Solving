@@ -1,4 +1,4 @@
-## TIL 
+## TIL
 
 ### [시저암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
 
@@ -10,12 +10,19 @@
 
 - list이름.index(값) => 해당 값이 있는 index를 알려준다
 
-
-
 ### [이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)
 
 - islower() : 소문자이면 true 반환
 - isupper() : 대문자이면 true 반환
 - lower() / upper() : 소문자로, 대문자로 만들어주는 함수
 - split(' ') : 공백을 기준으로 단어 자르기
+
   - `JAVA`의 StringTokenizer
+
+  ### [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
+
+  - 정렬
+    a = [1, 10, 5, 7, 6]
+    a.reverse() : 리스트를 거꾸로 뒤집기 [6, 7, 5, 10, 1]
+    a.sort() : 오름차순 정렬, 내림차순은 sort(reverse=Ture)
+    b = sorted(a) : a의 정렬된 결과를 b에 저장
