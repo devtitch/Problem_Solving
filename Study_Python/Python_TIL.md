@@ -19,7 +19,7 @@
 
   - `JAVA`의 StringTokenizer
 
-  ### [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
+### [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 
   - 정렬
     a = [1, 10, 5, 7, 6]
