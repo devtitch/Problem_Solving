@@ -26,3 +26,12 @@
     a.reverse() : 리스트를 거꾸로 뒤집기 [6, 7, 5, 10, 1]
     a.sort() : 오름차순 정렬, 내림차순은 sort(reverse=Ture)
     b = sorted(a) : a의 정렬된 결과를 b에 저장
+
+
+
+### [로또의 최고순위와 최저순위](https://programmers.co.kr/learn/courses/30/lessons/77484?language=python3)
+
+ - 해당 리스트에 원소가 있는지
+
+   `if 원소 in 리스트(배열)`
+
