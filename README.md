@@ -5,6 +5,10 @@
 <br/>
 
 📁 [프로그래머스](https://github.com/devtitch/Problem_Solving/tree/main/Programmers)
+📁 [백준](https://github.com/devtitch/Problem_Solving/tree/main/BOJ)
+📁 [파이썬으로 푼 문제](https://github.com/devtitch/Problem_Solving/tree/main/Study_Python)
+
+
 
 <br/>
 
