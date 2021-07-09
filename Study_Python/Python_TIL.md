@@ -35,3 +35,14 @@
 
    `if 원소 in 리스트(배열)`
 
+
+
+### Input 값 입력받기
+
+```python
+import sys
+sys.stdin = open('파일명.txt', 'r')
+N, M = map(int, input().split()) #2 3 과 같이 공백으로 띄워서 들어왔을 때
+arr = list(input()) #10011 -> arr ['1','0','0','1','1']
+```
+
