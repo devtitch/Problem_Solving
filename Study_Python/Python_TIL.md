@@ -46,3 +46,8 @@ N, M = map(int, input().split()) #2 3 과 같이 공백으로 띄워서 들어�
 arr = list(input()) #10011 -> arr ['1','0','0','1','1']
 ```
 
+```python
+#2차원 배열 받기
+map = [[int(k) for k in input().split()] for _ in range(N)]
+```
+
