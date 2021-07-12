@@ -51,3 +51,8 @@ arr = list(input()) #10011 -> arr ['1','0','0','1','1']
 map = [[int(k) for k in input().split()] for _ in range(N)]
 ```
 
+```python
+#2차원 배열 선언
+dp = [[0 for i in range(3)] for j in range(N)] 
+```
+
