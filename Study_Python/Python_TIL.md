@@ -56,3 +56,45 @@ map = [[int(k) for k in input().split()] for _ in range(N)]
 dp = [[0 for i in range(3)] for j in range(N)] 
 ```
 
+
+
+### for 문에서 Index 뛰어 넘기
+
+[BOJ_1543_문서검색](https://github.com/devtitch/Problem_Solving/blob/main/Study_Python/BOJ_1543_문서검색.py)
+
+파이썬에서는 for문에서 index 뛰어 넘는 방법이 없다고 한다
+
+```java
+for(int i=0; i<10; i++){
+    System.out.println(i);
+    if(i%2==0){
+        i++;
+    }
+} // 0 2 4 6 8
+```
+
+위와 같은 자바코드를 파이썬에서는 사용할 수 없다.
+
+```python
+for i in range(10):
+    print(i)
+    if i % 2 == 0:
+        i += 1
+# 0 1 2 3 4 5 6 7 8 9
+```
+
+이와 같이 반복문 안에서는 i가 반영이 되지만 java처럼 i를 건너뛸수는 없다
+
+따라서 이와 같은 방법을 사용한다고 한다
+
+```python
+i = 0
+while i < 10:
+    print(i)
+    if i % 2 == 0:
+        i += 1
+
+    i += 1
+# 0 2 4 6 8
+```
+
